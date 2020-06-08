@@ -1,0 +1,21 @@
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace Test
+{
+    [TestClass]
+    public class UnitTest1
+    {
+        [TestMethod]
+        public void TestSa()
+        {
+            Assert.AreEqual(15, OOP_lab1.Program.Sa(3, 27));
+        }
+
+        [TestMethod]
+        public void TestSg()
+        {
+            double result = OOP_lab1.Program.Sg(3, 27);
+            Assert.AreEqual(9, result);
+        }
+    }
+}
